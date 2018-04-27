@@ -18,8 +18,8 @@ void logical_operations(char bin_1[], char bin_2[])
 	int dec_2 = perevod(bin_2);
 	printf("~: %i\n   %i\n", ~dec_1, ~dec_2);
 	printf("&: %i\n", dec_1 & dec_2);
-	printf("&: %i\n", dec_1 | dec_2);
-	printf("&: %i\n", dec_1 ^ dec_2);
+	printf("|: %i\n", dec_1 | dec_2);
+	printf("^: %i\n", dec_1 ^ dec_2);
 }
 
 int perevod(char bin[])
